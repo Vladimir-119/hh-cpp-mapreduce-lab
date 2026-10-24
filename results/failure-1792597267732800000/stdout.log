@@ -1,0 +1,54 @@
+mapper chunk=0 failed; retry=1
+{
+  "source_rows": 68770,
+  "selected_rows": 869,
+  "selected_ids_sha256": "6f813cbcbfc959671fdcd159446308d8a28debb76fdf8d1c40895536127f083a",
+  "skill_count_histogram": {
+    "0": 193,
+    "1": 24,
+    "2": 64,
+    "3": 90,
+    "4": 116,
+    "5": 125,
+    "6": 78,
+    "7": 43,
+    "8": 26,
+    "9": 30,
+    "10": 19,
+    "11": 15,
+    "12": 8,
+    "13": 10,
+    "14": 4,
+    "15": 9,
+    "16": 2,
+    "17": 3,
+    "19": 1,
+    "20": 4,
+    "21": 2,
+    "24": 1,
+    "25": 1,
+    "30": 1
+  },
+  "contributions": {
+    "1": 3833,
+    "2": 13468,
+    "3": 43504
+  },
+  "unique_combinations": {
+    "1": 747,
+    "2": 6800,
+    "3": 31306
+  },
+  "mapper_retries": 1,
+  "method": "mapreduce",
+  "source": {
+    "endpoint": "http://127.0.0.1:9000",
+    "bucket": "hh-lake",
+    "key": "raw/it_vacancies.jsonl",
+    "etag": "\"1a60b55a389a2caceebfca02724c6847-4\"",
+    "bytes": 30732626,
+    "sha256": "d9bb991e4932c95d2231decb70f21b31338c4be0a3b89cf9d1a8cbfefd20e2b5"
+  },
+  "workers": 2,
+  "chunk_rows": 500
+}

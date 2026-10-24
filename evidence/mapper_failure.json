@@ -1,0 +1,26 @@
+{
+  "equal": true,
+  "left": "20261021T153911791766Z-mr-naive-1",
+  "right": "failure-1792597267732800000",
+  "selected_rows": 869,
+  "source": {
+    "endpoint": "http://127.0.0.1:9000",
+    "bucket": "hh-lake",
+    "key": "raw/it_vacancies.jsonl",
+    "etag": "\"1a60b55a389a2caceebfca02724c6847-4\"",
+    "bytes": 30732626,
+    "sha256": "d9bb991e4932c95d2231decb70f21b31338c4be0a3b89cf9d1a8cbfefd20e2b5"
+  },
+  "full_comparison_k": [
+    1,
+    2,
+    3
+  ],
+  "retries": 1,
+  "metrics": {
+    "seconds": 0.8743714170414023,
+    "peak_rss_mib": 171.21875,
+    "exit_code": 0
+  },
+  "scope": "Injected exception after mapping chunk 0, before reducer commit. Executor process death and network partition are not tested."
+}

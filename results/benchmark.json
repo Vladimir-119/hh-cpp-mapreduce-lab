@@ -1,0 +1,113 @@
+{
+  "qa": false,
+  "source": {
+    "endpoint": "http://127.0.0.1:9000",
+    "bucket": "hh-lake",
+    "key": "raw/it_vacancies.jsonl",
+    "etag": "\"1a60b55a389a2caceebfca02724c6847-4\"",
+    "bytes": 30732626,
+    "sha256": "d9bb991e4932c95d2231decb70f21b31338c4be0a3b89cf9d1a8cbfefd20e2b5"
+  },
+  "records": [
+    {
+      "method": "mr-naive",
+      "attempt": 1,
+      "directory": "20261021T153911791766Z-mr-naive-1",
+      "seconds": 0.9203195419977419,
+      "peak_rss_mib": 173.171875,
+      "exit_code": 0
+    },
+    {
+      "method": "mapreduce",
+      "attempt": 1,
+      "directory": "20261021T153911791766Z-mapreduce-1",
+      "seconds": 0.8542349589988589,
+      "peak_rss_mib": 173.96875,
+      "exit_code": 0
+    },
+    {
+      "method": "duckdb",
+      "attempt": 1,
+      "directory": "20261021T153911791766Z-duckdb-1",
+      "seconds": 0.9464301249827258,
+      "peak_rss_mib": 294.9375,
+      "exit_code": 0
+    },
+    {
+      "method": "mr-naive",
+      "attempt": 2,
+      "directory": "20261021T153911791766Z-mr-naive-2",
+      "seconds": 0.8374009159742855,
+      "peak_rss_mib": 170.0,
+      "exit_code": 0
+    },
+    {
+      "method": "mapreduce",
+      "attempt": 2,
+      "directory": "20261021T153911791766Z-mapreduce-2",
+      "seconds": 0.8758408330031671,
+      "peak_rss_mib": 172.078125,
+      "exit_code": 0
+    },
+    {
+      "method": "duckdb",
+      "attempt": 2,
+      "directory": "20261021T153911791766Z-duckdb-2",
+      "seconds": 0.7055319999926724,
+      "peak_rss_mib": 289.3125,
+      "exit_code": 0
+    },
+    {
+      "method": "mr-naive",
+      "attempt": 3,
+      "directory": "20261021T153911791766Z-mr-naive-3",
+      "seconds": 0.8890445420402102,
+      "peak_rss_mib": 172.28125,
+      "exit_code": 0
+    },
+    {
+      "method": "mapreduce",
+      "attempt": 3,
+      "directory": "20261021T153911791766Z-mapreduce-3",
+      "seconds": 0.8489952079835348,
+      "peak_rss_mib": 171.015625,
+      "exit_code": 0
+    },
+    {
+      "method": "duckdb",
+      "attempt": 3,
+      "directory": "20261021T153911791766Z-duckdb-3",
+      "seconds": 0.6622916670166887,
+      "peak_rss_mib": 286.65625,
+      "exit_code": 0
+    }
+  ],
+  "aggregate": {
+    "mr-naive": {
+      "median_seconds": 0.8890445420402102,
+      "median_peak_rss_mib": 172.28125,
+      "max_peak_rss_mib": 173.171875
+    },
+    "mapreduce": {
+      "median_seconds": 0.8542349589988589,
+      "median_peak_rss_mib": 172.078125,
+      "max_peak_rss_mib": 173.96875
+    },
+    "duckdb": {
+      "median_seconds": 0.7055319999926724,
+      "median_peak_rss_mib": 289.3125,
+      "max_peak_rss_mib": 294.9375
+    }
+  },
+  "reference": "20261021T153911791766Z-mr-naive-1",
+  "settings": {
+    "workers": 2,
+    "chunk_rows": 500
+  },
+  "machine": {
+    "platform": "macOS-15.8.1-arm64-arm-64bit",
+    "python": "3.12.14 (main, Sep  1 2026, 14:09:38) [Clang 22.1.3 ]",
+    "cpu_count": 8
+  },
+  "metric": "End-to-end subprocess wall time including imports, S3 HEAD/GET, map/reduce or SQL, sorting, local output, and S3 result upload. Peak = sampled sum of RSS for root and live descendants; 10ms sampling; shared pages may be counted twice. No cold-cache claim."
+}

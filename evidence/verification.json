@@ -1,0 +1,173 @@
+[
+  {
+    "equal": true,
+    "left": "20261021T153911791766Z-mr-naive-1",
+    "right": "20261021T153911791766Z-mr-naive-1",
+    "selected_rows": 869,
+    "source": {
+      "endpoint": "http://127.0.0.1:9000",
+      "bucket": "hh-lake",
+      "key": "raw/it_vacancies.jsonl",
+      "etag": "\"1a60b55a389a2caceebfca02724c6847-4\"",
+      "bytes": 30732626,
+      "sha256": "d9bb991e4932c95d2231decb70f21b31338c4be0a3b89cf9d1a8cbfefd20e2b5"
+    },
+    "full_comparison_k": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "equal": true,
+    "left": "20261021T153911791766Z-mr-naive-1",
+    "right": "20261021T153911791766Z-mapreduce-1",
+    "selected_rows": 869,
+    "source": {
+      "endpoint": "http://127.0.0.1:9000",
+      "bucket": "hh-lake",
+      "key": "raw/it_vacancies.jsonl",
+      "etag": "\"1a60b55a389a2caceebfca02724c6847-4\"",
+      "bytes": 30732626,
+      "sha256": "d9bb991e4932c95d2231decb70f21b31338c4be0a3b89cf9d1a8cbfefd20e2b5"
+    },
+    "full_comparison_k": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "equal": true,
+    "left": "20261021T153911791766Z-mr-naive-1",
+    "right": "20261021T153911791766Z-duckdb-1",
+    "selected_rows": 869,
+    "source": {
+      "endpoint": "http://127.0.0.1:9000",
+      "bucket": "hh-lake",
+      "key": "raw/it_vacancies.jsonl",
+      "etag": "\"1a60b55a389a2caceebfca02724c6847-4\"",
+      "bytes": 30732626,
+      "sha256": "d9bb991e4932c95d2231decb70f21b31338c4be0a3b89cf9d1a8cbfefd20e2b5"
+    },
+    "full_comparison_k": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "equal": true,
+    "left": "20261021T153911791766Z-mr-naive-1",
+    "right": "20261021T153911791766Z-mr-naive-2",
+    "selected_rows": 869,
+    "source": {
+      "endpoint": "http://127.0.0.1:9000",
+      "bucket": "hh-lake",
+      "key": "raw/it_vacancies.jsonl",
+      "etag": "\"1a60b55a389a2caceebfca02724c6847-4\"",
+      "bytes": 30732626,
+      "sha256": "d9bb991e4932c95d2231decb70f21b31338c4be0a3b89cf9d1a8cbfefd20e2b5"
+    },
+    "full_comparison_k": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "equal": true,
+    "left": "20261021T153911791766Z-mr-naive-1",
+    "right": "20261021T153911791766Z-mapreduce-2",
+    "selected_rows": 869,
+    "source": {
+      "endpoint": "http://127.0.0.1:9000",
+      "bucket": "hh-lake",
+      "key": "raw/it_vacancies.jsonl",
+      "etag": "\"1a60b55a389a2caceebfca02724c6847-4\"",
+      "bytes": 30732626,
+      "sha256": "d9bb991e4932c95d2231decb70f21b31338c4be0a3b89cf9d1a8cbfefd20e2b5"
+    },
+    "full_comparison_k": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "equal": true,
+    "left": "20261021T153911791766Z-mr-naive-1",
+    "right": "20261021T153911791766Z-duckdb-2",
+    "selected_rows": 869,
+    "source": {
+      "endpoint": "http://127.0.0.1:9000",
+      "bucket": "hh-lake",
+      "key": "raw/it_vacancies.jsonl",
+      "etag": "\"1a60b55a389a2caceebfca02724c6847-4\"",
+      "bytes": 30732626,
+      "sha256": "d9bb991e4932c95d2231decb70f21b31338c4be0a3b89cf9d1a8cbfefd20e2b5"
+    },
+    "full_comparison_k": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "equal": true,
+    "left": "20261021T153911791766Z-mr-naive-1",
+    "right": "20261021T153911791766Z-mr-naive-3",
+    "selected_rows": 869,
+    "source": {
+      "endpoint": "http://127.0.0.1:9000",
+      "bucket": "hh-lake",
+      "key": "raw/it_vacancies.jsonl",
+      "etag": "\"1a60b55a389a2caceebfca02724c6847-4\"",
+      "bytes": 30732626,
+      "sha256": "d9bb991e4932c95d2231decb70f21b31338c4be0a3b89cf9d1a8cbfefd20e2b5"
+    },
+    "full_comparison_k": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "equal": true,
+    "left": "20261021T153911791766Z-mr-naive-1",
+    "right": "20261021T153911791766Z-mapreduce-3",
+    "selected_rows": 869,
+    "source": {
+      "endpoint": "http://127.0.0.1:9000",
+      "bucket": "hh-lake",
+      "key": "raw/it_vacancies.jsonl",
+      "etag": "\"1a60b55a389a2caceebfca02724c6847-4\"",
+      "bytes": 30732626,
+      "sha256": "d9bb991e4932c95d2231decb70f21b31338c4be0a3b89cf9d1a8cbfefd20e2b5"
+    },
+    "full_comparison_k": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "equal": true,
+    "left": "20261021T153911791766Z-mr-naive-1",
+    "right": "20261021T153911791766Z-duckdb-3",
+    "selected_rows": 869,
+    "source": {
+      "endpoint": "http://127.0.0.1:9000",
+      "bucket": "hh-lake",
+      "key": "raw/it_vacancies.jsonl",
+      "etag": "\"1a60b55a389a2caceebfca02724c6847-4\"",
+      "bytes": 30732626,
+      "sha256": "d9bb991e4932c95d2231decb70f21b31338c4be0a3b89cf9d1a8cbfefd20e2b5"
+    },
+    "full_comparison_k": [
+      1,
+      2,
+      3
+    ]
+  }
+]

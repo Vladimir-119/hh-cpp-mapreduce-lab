@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+._*
+__MACOSX/
+qa/
+infra/disks/
+data/source.zip
+data/it_vacancies.jsonl

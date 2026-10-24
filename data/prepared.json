@@ -1,0 +1,7 @@
+{
+  "rows": 68770,
+  "bytes": 30732626,
+  "sha256": "d9bb991e4932c95d2231decb70f21b31338c4be0a3b89cf9d1a8cbfefd20e2b5",
+  "source_csv_sha256": "3cd9b023517e7fd80314d2e31a74215f425796f426cd6480260d0d2dc5b26d2c",
+  "note": "No variant filtering, no salary imputation, no skill extraction."
+}

@@ -1,0 +1,27 @@
+{
+  "source_page": "https://www.kaggle.com/datasets/ilyazawilsiv/it-vacancies-from-headhunter-website",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/ilyazawilsiv/it-vacancies-from-headhunter-website",
+  "source_file": "IT_vacancies.csv",
+  "license_from_kaggle_metadata": "Apache 2.0",
+  "source_zip_sha256": "2634493b518cff1a48bb27503084a125de2696f87e3e7693e8d3ffeb24d7f47c",
+  "projection_sha256": "3cd9b023517e7fd80314d2e31a74215f425796f426cd6480260d0d2dc5b26d2c",
+  "projection_fields": [
+    "id",
+    "area_id",
+    "area_name",
+    "name",
+    "salary_from",
+    "salary_to",
+    "salary_currency",
+    "salary_gross",
+    "experience",
+    "schedule",
+    "employment",
+    "published_at",
+    "professional_roles_id",
+    "professional_roles_name",
+    "key_skills",
+    "count_key_skills"
+  ],
+  "transformation": "Column projection only; all source rows and original field values retained. No invented or extracted skills; no imputed salaries."
+}
